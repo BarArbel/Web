@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #8f8fbf;
+}
+
+header, main, footer, nav, section{
+	display: block;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #f6f9f9;
+	font-size: 30px;
+	font-weight: bold;
+}
+nav{
+	padding-top: 39px;
+}
+
+#logo{
+	width: 197px;
+	background: url(../images/logo.png) no-repeat left center;
+	padding-top: 20px;
+	padding-left: 45px;
+	padding-right: 40px;
+	font-family: "Lato";
+	color: #2d3950;
+}
+
+.mainMenu{
+	font-family: "Verdana";
+	color: #264951;
+}
+
+#cover{
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	height: 800px;
+	color: #ffffff;
+}
+
+#cover h1{
+	width: 600px;
+	padding-top: 237px;
+	font-size: 120px;
+	border-bottom: 2px solid #15a3f9;
+	letter-spacing: 3px;
+	margin: auto;
+}
+
+#cover h4{
+	padding-top: 39px;
+	font-size: 20px;
+}
+
+.gitHub{
+	display: block;
+	width: 176px;
+	height: 54px;
+	margin-top: 63px;
+	line-height: 54px;
+	border: 1px solid #15a3f9;
+	border-radius: 2px;
+	font-size: 18px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gitHub:hover{
+	font-size:20px;
+	border: 3px solid #15a3f9;
+	color: #ffffff;
+	background-color: #15a3f9;
+	letter-spacing: 0px;
+}
+
+.down{
+	display: block;
+	width: 25px;
+	margin-top: 178px;
+	font-family: "Font Awesome";
+	font-size: 35px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#info{
+	height: 340px;
+	background-color: #f6f9f9;
+}
+
+#info h2{
+	padding-top: 80px;
+	font-family: "Myriad Hebrew";
+	font-size: 40px;
+	color: #2d3950;
+}
+
+#info p{
+	margin-top: 15px;
+	font-size: 20px;
+	color: #999999;
+}
+
+#skills{
+	background-color: #ffffff;
+}
+
+#skills h2{
+	padding-top: 80px;
+	font-family: "Myriad Pro";
+	font-size: 41px;
+	color: #2d3950;
+}
+
+#skills ul{
+	list-style: none;
+	margin-top: 60px;
+}
+
+.listItem{
+	margin-left: 355px;
+	font-family: "Courier New";
+	font-size: 30px;
+	color: #576173;
+	text-align: left;
+}
+
+.progIcons{
+	width: 100px;
+	height: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+
+footer{
+	height: 90px;
+	margin-top: 112px;
+	padding-left: 252px;
+	background-color: #f6f9f9;
+	text-align: left;
+}
+
+.contactIcons{
+	width: 40px;
+	height: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+footer h6{
+	display: inline;
+	padding-left: 10px;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	color: #999999;
+	letter-spacing: 0px;
+}
