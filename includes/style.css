@@ -55,8 +55,9 @@ nav{
 
 #cover h1{
 	width: 600px;
-	padding-top: 221px;
+	padding-top: 194px;
 	font-size: 120px;
+	font-weight: normal;
 	border-bottom: 2px solid #15a3f9;
 	letter-spacing: 3px;
 	margin: auto;
@@ -65,6 +66,7 @@ nav{
 #cover h4{
 	padding-top: 39px;
 	font-size: 20px;
+	font-weight: normal;
 }
 
 .gitHub{
@@ -107,8 +109,9 @@ nav{
 
 #info h2{
 	padding-top: 81px;
-	font-family: Myriad Hebrew;
+	font-family: "Myriad Hebrew";
 	font-size: 40px;
+	font-weight: normal;
 	color: #2d3950;
 }
 
@@ -126,6 +129,7 @@ nav{
 	padding-top: 76px;
 	font-family: "Myriad Pro";
 	font-size: 41px;
+	font-weight: normal;
 	color: #2d3950;
 }
 
@@ -135,7 +139,6 @@ nav{
 }
 
 .listItem{
-	margin-left: 355px;
 	font-family: "Courier New";
 	font-size: 30px;
 	color: #576173;
@@ -161,7 +164,6 @@ nav{
 footer{
 	height: 90px;
 	margin-top: 92px;
-	padding-left: 251px;
 	background-color: #f6f9f9;
 	text-align: left;
 }
@@ -180,6 +182,7 @@ footer h6{
 	padding-left: 10px;
 	font-family: "Myriad Pro";
 	font-size: 15px;
+	font-weight: normal;
 	color: #999999;
 	letter-spacing: 0px;
 }
