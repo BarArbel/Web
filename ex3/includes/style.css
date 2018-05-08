@@ -18,7 +18,6 @@ ul {
 }
 
 article {
-	position: absolute;
 	background-color: #000000;
 	opacity: 0.6;
 }
@@ -91,14 +90,16 @@ aside {
 	height: 428px;
 }
 
-#box1 {
+#l1 section article {
+	position: absolute;
 	width: 126px;
 	height: 94px;
 	margin-top: 89px;
 	margin-left: 342px;
 }
 
-#box2 {
+#l1 main article {
+	position: absolute;
 	width: 692px;
 	height: 175px;
 	bottom: 0px;
@@ -126,7 +127,7 @@ aside {
 	height: 79px;
 	padding-top: 27px;
 	margin: 0px auto;
-	background: url(../images/logo.png) no-repeat center center;
+	background: url(../images/logo.png) no-repeat left center;
 }
 
 #l2 nav {
@@ -149,44 +150,39 @@ aside {
 }
 
 #l2 main {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
 	float: right;
 	width: 757px;
 	height: 935px;
 	background-color: #eca6be;
 }
 
-#l2 section {
-	position: relative;
-	float: left;
+#l2 main article {
 	width: 212px;
-	height: 935px;
 	margin-left: 30px;
+	margin-bottom: 19px;
 }
 
-#box3 {
-	width: 212px;
+#l2 main article:nth-child(1) {
 	height: 366px;
 }
 
-#box4 {
-	width: 212px;
+#l2 main article:nth-child(2) {
 	height: 500px;
-	bottom: 50px;
 }
 
-#box5 {
-	width: 212px;
+#l2 main article:nth-child(3) {
 	height: 560px;
 }
 
-#box6 {
-	width: 212px;
+#l2 main article:nth-child(4) {
 	height: 306px;
-	bottom: 50px;
 }
 
-#box7 {
-	width: 212px;
+#l2 main article:nth-child(5) {
 	height: 223px;
 }
 
