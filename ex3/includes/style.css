@@ -133,7 +133,8 @@ aside {
 #l2 nav {
 	float: left;
 	width: 243px;
-	height: 935px;
+	height: 885px;
+	margin-bottom: 50px;
 	background-color: #1d1d1b;
 }
 
@@ -156,18 +157,19 @@ aside {
 	align-content: flex-start;
 	float: right;
 	width: 757px;
-	height: 935px;
+	height: 885px;
+	margin-bottom: 50px;
 	background-color: #eca6be;
 }
 
 #l2 main article {
 	width: 212px;
 	margin-left: 30px;
-	margin-bottom: 19px;
 }
 
 #l2 main article:nth-child(1) {
 	height: 366px;
+	margin-bottom: 19px;
 }
 
 #l2 main article:nth-child(2) {
@@ -176,6 +178,7 @@ aside {
 
 #l2 main article:nth-child(3) {
 	height: 560px;
+	margin-bottom: 19px;
 }
 
 #l2 main article:nth-child(4) {
