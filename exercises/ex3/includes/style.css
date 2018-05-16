@@ -196,3 +196,85 @@ aside {
 	bottom: 0px;
 	background-color: #efdfe7;
 }
+
+/*--------------------layout3--------------------*/
+
+#l3 #flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+#l3 header {
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+#l3 header section {
+	position: absolute;
+	width: 86px;
+	height: 86px;
+	top: 50%;
+	left: 50%;
+	margin-top: -43px;
+	margin-left: -43px;
+	background: url(../images/pluse.png) no-repeat center center;
+}
+
+#l3 .logo {
+	display: block;
+	width: 78px;
+	height: 79px;
+	margin-left: 20px;
+	margin-top: 22px;
+	background: url(../images/logo.png) no-repeat left center;
+}
+
+#l3 nav {
+	position: absolute;
+	width: 500px;
+	height: 62px;
+	bottom: 0px;
+	background-color: #e32675;
+}
+
+#l3 li a {
+	display: block;
+	float: left;
+	width: 167px;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+}
+
+#l3 .selected {
+	width: 166px;
+	background-color: #1d1d1b;
+}
+
+#l3 section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	width: 500px;
+	height: 500px;
+	background-color: #eca6be;
+}
+
+#l3 main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	width: 1000px;
+	height: 500px;
+	background-color: #eca6be;
+}
+
+#l3 article {
+	width: 250px;
+	height: 250px;
+}

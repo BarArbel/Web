@@ -2,22 +2,36 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="includes/style.css">
+		<script src="includes/scripts.js"></script>
 		<title>Bar Arbel Layout3</title>
 	</head>
 	<body id="l3">
-		<header>
-			
-		</header>
-		<aside>
-			
-		</aside>
-		<main>
+		<div class="wrapper" id="flex">
+			<header>
+				<a class="logo" href="index.html"></a>
+				<section></section>
+				<nav>
+					<ul>
+						<li><a href="index.html">Layout 1</a></li>
+						<li><a href="layout2.html">Layout 2</a></li>
+						<li><a class="selected" href="#">Layout 3</a></li>
+						<div class="clear"></div>
+					</ul>
+				</nav>
+			</header>
 			<section>
-				
+				<article></article>
+				<article></article>
+				<article></article>
+				<article></article>
 			</section>
-		</main>
-		<footer>
-			
-		</footer>
+			<div class="clear"></div>
+			<main></main>
+		</div>
+		<script>
+			(function() {
+				Initialize();
+			})();
+		</script>
 	</body>
 </html>
