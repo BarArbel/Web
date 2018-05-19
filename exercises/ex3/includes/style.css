@@ -206,7 +206,7 @@ aside {
 	align-content: flex-start;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 999px) {
     #l3 .wrapper {
     	width: 500px;
     }
@@ -219,7 +219,7 @@ aside {
 	background-color: #ffffff;
 }
 
-#pluse {
+#plus {
 	display: block;
 	position: absolute;
 	width: 86px;
@@ -228,7 +228,7 @@ aside {
 	left: 50%;
 	margin-top: -43px;
 	margin-left: -43px;
-	background: url(../images/pluse.png) no-repeat center center;
+	background: url(../images/plus.png) no-repeat center center;
 }
 
 #l3 .logo {

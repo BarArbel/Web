@@ -22,7 +22,7 @@ function createArticle(name) {
 };
 
 function Initialize() {
-	var imgObj = document.getElementById("pluse");
+	var imgObj = document.getElementById("plus");
 	imgObj.addEventListener("click", function(){createArticle("main");});
 	for (var i = 0; i < 4; i++) {
 		createArticle("section");
