@@ -199,20 +199,28 @@ aside {
 
 /*--------------------layout3--------------------*/
 
-#l3 #flex {
+#l3 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-content: flex-start;
 }
 
+@media only screen and (max-width: 1000px) {
+    #l3 .wrapper {
+    	width: 500px;
+    }
+}
+
 #l3 header {
 	position: relative;
 	width: 500px;
 	height: 500px;
+	background-color: #ffffff;
 }
 
-#l3 header section {
+#pluse {
+	display: block;
 	position: absolute;
 	width: 86px;
 	height: 86px;
@@ -270,11 +278,7 @@ aside {
 	justify-content: flex-start;
 	align-content: flex-start;
 	width: 1000px;
-	height: 500px;
+	height: auto;
+	min-height: 500px;
 	background-color: #eca6be;
-}
-
-#l3 article {
-	width: 250px;
-	height: 250px;
 }
