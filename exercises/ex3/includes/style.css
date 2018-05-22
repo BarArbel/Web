@@ -199,14 +199,13 @@ aside {
 
 /*--------------------layout3--------------------*/
 
-#l3 .wrapper {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-content: flex-start;
+@media only screen and (max-width: 999px) and (min-width: 750px) {
+    #l3 .wrapper {
+    	width: 750px;
+    }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 749px) {
     #l3 .wrapper {
     	width: 500px;
     }
@@ -214,21 +213,10 @@ aside {
 
 #l3 header {
 	position: relative;
+	float: left;
 	width: 500px;
 	height: 500px;
 	background-color: #ffffff;
-}
-
-#plus {
-	display: block;
-	position: absolute;
-	width: 86px;
-	height: 86px;
-	top: 50%;
-	left: 50%;
-	margin-top: -43px;
-	margin-left: -43px;
-	background: url(../images/plus.png) no-repeat center center;
 }
 
 #l3 .logo {
@@ -238,6 +226,18 @@ aside {
 	margin-left: 20px;
 	margin-top: 22px;
 	background: url(../images/logo.png) no-repeat left center;
+}
+
+#l3 section {
+	display: block;
+	position: absolute;
+	width: 86px;
+	height: 86px;
+	top: 50%;
+	left: 50%;
+	margin-top: -43px;
+	margin-left: -43px;
+	background: url(../images/plus.png) no-repeat center center;
 }
 
 #l3 nav {
@@ -262,23 +262,9 @@ aside {
 	background-color: #1d1d1b;
 }
 
-#l3 section {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-content: flex-start;
-	width: 500px;
-	height: 500px;
-	background-color: #eca6be;
-}
-
 #l3 main {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-content: flex-start;
-	width: 1000px;
+	width: auto;
 	height: auto;
-	min-height: 500px;
+	min-height: 1000px;
 	background-color: #eca6be;
 }
