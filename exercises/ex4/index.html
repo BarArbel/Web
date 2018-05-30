@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="includes/style.css">
+		<script src="includes/scripts.js"></script>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<title>Bar Arbel Form</title>
+	</head>
+	<body id="bodyOveride">
+		<div id="wrapper">
+			<form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" id="form">
+				<h1 id="h1Overide" data-text="Join Our Members Club">Join Our Members Club</h1>
+				<div class="form-group">
+					<input type="text" name="fullName" pattern="[A-Za-z ]+" title="Must contain letters only" placeholder="Full Name" class="form-control" id="name">
+				</div>
+				<div class="form-group">
+					<input type="password" name="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least 8 characters, one number, one uppercase letter, one lowercase letter and a blood sacrific" placeholder="Password" class="form-control" id="password">
+				</div>
+				<div class="form-group">
+					<input type="email" name="mail" placeholder="E-Mail" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<input type="url" name="website" placeholder="Your Website" class="form-control" id="link">
+				</div>
+				<div class="form-group">
+					<input type="tel" name="phone" pattern="[0-9]+" title="Must contain numbers only" placeholder="Phone" class="form-control" id="phone">
+				</div>
+				<div class="form-group">
+					<input type="number" name="coffe" placeholder="How many cups of coffe do you drink a day?" class="form-control" id="coffe">
+				</div>
+				<div class="form-group">
+					<label for="temp" class="lableOveride">What's the temperature?</label>
+					<input type="range" name="temper" class="form-control" id="temp">
+				</div>
+				<div class="form-group">
+					<textarea name="address" rows="3" placeholder="Address" class="form-control" id="address"></textarea>
+				</div>
+				<div class="form-group">
+					<label class="lableOveride">Hobbies</label><br>
+					<div class="form-check form-check-inline">
+						<input type="checkbox" name="interests[]" value="sword swallowing" class="form-check-input" id="check1">
+						<label for="check1" class="form-check-label">Reading books</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input type="checkbox" name="interests[]" value="fire breathing" class="form-check-input" id="check2">
+						<label for="check2" class="form-check-label">Playing with my children</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input type="checkbox" name="interests[]" value="flaming sword swallowing" class="form-check-input" id="check3">
+						<label for="check3" class="form-check-label">Sleeping</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input type="checkbox" name="interests[]" value="balloon animals" class="form-check-input" id="check4">
+						<label for="check4" class="form-check-label">Something Else</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="lableOveride">Gender</label><br>
+					<div class="form-check form-check-inline">
+						<input type="radio" name="gender" value="male" class="form-check-input" id="radio1">
+						<label for="radio1" class="form-check-label">Male</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input type="radio" name="gender" value="female" class="form-check-input" id="radio2">
+						<label for="radio2" class="form-check-label">Female</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="age" class="lableOveride">Age</label>
+					<select class="form-control" id="age">
+						<option value="10" selected>10</option>
+						<option value="20">20</option>
+						<option value="30">30</option>
+						<option value="40">40</option>
+					</select>
+				</div>
+				<input type="submit" value="Submit" class="btn btn-secondary" id="sub">
+			</form>
+		</div>
+	</body>
+</html>
